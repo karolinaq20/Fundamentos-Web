@@ -6,40 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
         <li><a href="contato.html">Contato</a></li>
     </ul>
-    <h1>Entre em Contato comigo</h1>
+    <h1 class="center">Entre em Contato comigo</h1>
 
-    <form>
-        <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">e-mail:</label> <br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
+    <div class="container mb-50">
+        <div>
+            <form>
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">e-mail:</label> <br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
 
-    </form>
-    <h2>Endereço:</h2>
-    <p>45-1 Harajuku, Hidaka, Saitama 350-1205</p>
-    <p>Japão</p>
+            </form>
+        </div>
+        <div class="ml-50">
 
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5435.205570847382!2d139.34187961175547!3d35.903095695283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60192845d5006935%3A0x8111abef7801e53c!2z77yI5pyJ77yJ5qCX44GT44G-5aiY5pys6IiXIOS6gOWxiw!5e0!3m2!1spt-BR!2sbr!4v1623879209265!5m2!1spt-BR!2sbr"
-        width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p>45-1 Harajuku, Hidaka, Saitama 350-1205</p>
+            <p>Japão</p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5435.205570847382!2d139.34187961175547!3d35.903095695283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60192845d5006935%3A0x8111abef7801e53c!2z77yI5pyJ77yJ5qCX44GT44G-5aiY5pys6IiXIOS6gOWxiw!5e0!3m2!1spt-BR!2sbr!4v1623879209265!5m2!1spt-BR!2sbr"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <hr>
+    <footer>
+  
+  <div class="container">
+      <a href="https://www.instagram.com/" target="_blank">
+          <img class="tm-social p-30" src="assets/img/instagram.png" 
+          alt="Logo do Instagram">
+      </a>
+  <a href="https://www.linkedin.com/in/karolina-queiroz-b4635a212/" target="_blank">
+      <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+  </a>
+  <a href="https://br.pinterest.com/" target="_blank">
+      <img class="tm-social p-30" src="assets/img/pinterest.png" alt="Logo do Pinterest">
+  </a>
+  
+  </div>
+      
+        <p id="copy">
+          Todos os direitos reservados: Karolina Queiroz &copy
+        </p>
+       
+    </footer>
+
 </body>
 
 </html>
